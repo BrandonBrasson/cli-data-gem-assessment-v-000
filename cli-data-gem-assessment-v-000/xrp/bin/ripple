@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require'./lib/ripple'
+
+ripple::CLI.new.call
+
+
+def ripple
+  puts "ripple"
+end
