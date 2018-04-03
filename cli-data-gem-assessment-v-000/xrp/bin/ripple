@@ -2,7 +2,7 @@
 
 require'./lib/ripple'
 
-ripple::CLI.new.call
+Xrp::CLI.new.call
 
 
 def ripple

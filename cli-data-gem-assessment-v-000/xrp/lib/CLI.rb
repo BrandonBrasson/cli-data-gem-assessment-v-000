@@ -8,9 +8,9 @@ class ripple::CLI
 
  def list_xrp
   puts "welcome user:"
-  puts <<-doc.gsub/^\s*/,''
+  puts << HEREDOC doc.gsub/^\s*/,''
    1.ripple The world’s only enterprise blockchain solution for global payments!
- DOC
+ HEREDOC >>
 end
 
 def menu
@@ -40,6 +40,6 @@ end
 
 def fast
   puts "Instant, on-demand settlement"
-
+end
 
  end
