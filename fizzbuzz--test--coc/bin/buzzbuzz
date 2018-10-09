@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+
+puts "fizz"
+buzz = gets.to_i
+puts "buzz"
+
+puts "buzz"
+fizz = gets.to_i
+puts "fizz"
+
+
+
+
+
+
+
