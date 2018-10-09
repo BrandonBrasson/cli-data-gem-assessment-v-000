@@ -1,9 +1,0 @@
-source "https://rubygems.org"
-
-git_source(:github) {|Brandon| "https://github.com/#{repo_name}" }
-
-# Specify your gem's dependencies in xrp.gemspec
-gemspec
-
-ruby
-gem 'xrp'

@@ -1,0 +1,50 @@
+class Soda::CLI
+  attr_accessor   :url, :name, :price
+
+    @@all = []
+
+    def initialize
+      @@all << self
+    end
+
+    def self.all
+
+      @@all
+      binding.pry
+    end
+
+
+   def call
+
+    menu
+    goodbye
+  end
+
+
+  puts "fizz"
+  buzz = gets.to_i
+  puts "buzz"
+
+
+
+      def menu
+        input = nil
+        while input != "exit"
+          puts "list of data"
+          input = gets.strip.downcase
+
+      if input.to_i > 0
+        buzz = @all (0..5).each do |i|
+        puts " #{buzz.fizz} - #{fizz.buzz} - #{the_book.url}"
+      elsif input == "list"
+        list_storybook
+      else
+        puts "Not sure what you want, type list or exit."
+      end
+    end
+end
+
+  def goodbye
+    puts "goodbye"
+  end
+end
